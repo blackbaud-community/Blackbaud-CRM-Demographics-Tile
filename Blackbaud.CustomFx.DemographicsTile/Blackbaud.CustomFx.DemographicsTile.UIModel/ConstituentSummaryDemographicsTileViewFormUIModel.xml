@@ -1,0 +1,10 @@
+﻿<UIModelWizardMetadata>
+  <SpecFileName>ConstituentSummaryDemographicsTile.View.xml</SpecFileName>
+  <Namespace></Namespace>
+  <ClassName>ConstituentSummaryDemographicsTileViewFormUIModel</ClassName>
+  <HtmlInfo GenerateHtml="true">
+    <HtmlFile>ConstituentSummaryDemographicsTileViewForm.html</HtmlFile>
+    <HtmlFolder>htmlforms\custom\</HtmlFolder>
+  </HtmlInfo>
+  <GenerateFromDatabase>true</GenerateFromDatabase>
+</UIModelWizardMetadata>
