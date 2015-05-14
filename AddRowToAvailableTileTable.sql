@@ -13,7 +13,7 @@ output;
 if not exists(
   select 1
   from dbo.CONSTITUENTSUMMARYAVAILABLETILE
-  where DATAFORMINSTANCECATALOGID = '836843d3-6380-48e0-8bd5-2477cc117f30' and CONSTITUENTTYPECODE = 0
+  where DATAFORMINSTANCECATALOGID = '473bed00-d274-48bd-abc1-535b27c1a24d' and CONSTITUENTTYPECODE = 0
 )
 begin
   insert into CONSTITUENTSUMMARYAVAILABLETILE(
@@ -26,9 +26,9 @@ begin
     CHANGEDBYID
   )
   values(
-    'Event Registrations',
+    'Demographics',
     0,
-    '836843d3-6380-48e0-8bd5-2477cc117f30',
+    '473bed00-d274-48bd-abc1-535b27c1a24d',
     @CURRENTDATE,
     @CURRENTDATE,
     @CHANGEAGENTID,
